@@ -196,7 +196,13 @@ And here is the part nobody says: being the Sink is not a victory. It is the mos
 
 The Stoics called this *prohairesis* — the one faculty that remains entirely yours: the choice of where your effort goes and why. The model shows that everything except your own baseline energy $\beta$ is structurally outside your control. The person above you doesn't respond because the graph routes that way, not because you said the wrong thing. What *is* yours is the direction of your own edge. That is the only variable in this entire system you were ever actually holding.
 
-The pyramid doesn't ask for your consent. It doesn't need it. It runs on the same fuel as every other supply chain: the quiet, habitual assumption that input will eventually produce output. The only way to stop subsidizing it is to see it first — and then decide, deliberately, that you would rather be someone's answer than everyone's question.
+The pyramid doesn't ask for your consent. It doesn't need it. It runs on the same fuel as every other supply chain: the quiet, habitual assumption that input will eventually produce output. The only way to stop subsidizing it is to see it first — and then decide, deliberately, to stop being a node entirely.
+
+Not to find a better tier. Not to optimize your position within the structure. To refuse the game, not just the losing position within it. Because every move everyone in this chain is making is *upward* — more effort, more availability, more emotional capital routed into a system that was never designed to route anything back. Nobody looks outward. The model doesn't even have a direction for outward. That is precisely the point.
+
+Unplug. Walk out — not to a better tier, but to a different graph altogether. The only move that wins is the one that doesn't play.
+
+*The exit isn't upward. It's outward.*
 
 &nbsp;
 
