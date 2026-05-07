@@ -62,6 +62,20 @@ This paper did not need to exist. It exists anyway. **The math is real.**
 
 ---
 
+## Who This Is For
+
+This is for anyone who has ever been busy being needed by someone who was busy needing someone else. Which is, with great mathematical certainty, almost everyone. You don't have to be heartbroken to be in this system — you just have to be human, which means you were enrolled in it sometime around adolescence, without a syllabus, without a map, and without anyone explaining that your emotional labor was about to become someone else's working capital.
+
+We pour energy into systems that structurally cannot return it — not because we are foolish, but because *effort equals reward* is the single most reliable rule in every other domain of life. You study, you learn. You work, you earn. You plant, you harvest. Except here, in this one domain, the graph is directed. The edges don't run both ways. And nobody mentioned that.
+
+The deeper lesson — the one this paper won't say out loud but that lives in the math — is that the middle tiers aren't victims of someone's malice. They're victims of a structure. The Sink doesn't withhold reciprocity out of cruelty; the Sink is simply the terminus of a flow that was always pointing that way. You cannot guilt a river into running uphill. You cannot negotiate with topology.
+
+So who should read this? The person who has been someone's safe option while being no one's first choice. The person who mistakes their tolerance for loyalty, their availability for devotion, their consistency for a relationship. The person who has spent considerable energy being deeply, quietly, productively useful to someone who has spent zero energy wondering why. This model will not fix any of that — but it will *name* it. And naming a structure is the first, most radical act of freedom available to you. Because once you can see the graph, you can ask the only question that actually matters:
+
+*Is this the node I want to be?*
+
+---
+
 ## The Short Version (No Equations, I Promise)
 
 Think of affection as currency. When you have a crush on someone, you freely transfer that currency to them — in the form of quick replies, unsolicited "you've got this" texts, and listening to their entire situation with Person X for the fourth time this month.
