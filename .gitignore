@@ -1,2 +1,5 @@
 .DS_Store
 *.DS_Store
+*.png
+REPORT.md
+IMPLEMENTATION_GUIDE.md
