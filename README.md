@@ -186,6 +186,18 @@ These are features of the *model*, not bugs in the *people*.
 
 > *"The only mathematically sound strategy is to be the founder (the Sink) or to refuse to recruit."*
 
+Let's be honest about what both of those actually mean.
+
+**To be the Sink** is not a strategy you can execute. You cannot study for it, optimize into it, or arrive there through effort — because the Sink's position is entirely determined by being wanted by people who are wanted by people. It's structural, not personal. You either occupy that node or you don't, and the uncomfortable truth is that trying harder to become it is precisely the behavior that keeps you in Tier 2. The Sink doesn't pursue. The Sink is pursued. Any action you take to close that gap is, by definition, the action of someone who is not the Sink. The Sink is not a goal. It is a fact of the graph.
+
+And here is the part nobody says: being the Sink is not a victory. It is the most validated and the least connected position in the entire structure. The Sink accumulates everything and reciprocates nothing — which means the Sink has no one. Only admirers. Those are not the same thing. Winning the pyramid means standing alone at the top of it, full of borrowed confidence, surrounded by people who are projecting something onto you that you never asked for and cannot return. The math calls this wealth. Most humans would call it loneliness with better lighting.
+
+**To refuse to recruit** is the only option that is actually within your control — and it is genuinely harder than it sounds. It means not using the affection someone gives you as fuel to pursue someone who won't give it back. It means not letting one person's devotion become another person's ego-supply. It means closing the loop yourself, instead of passing the deficit downward. In the model, this sets your upward pass-through rate to zero. In life, it means either reciprocating honestly or stepping out of the chain entirely — not leaving people invested in a return that the structure was never designed to deliver.
+
+The Stoics called this *prohairesis* — the one faculty that remains entirely yours: the choice of where your effort goes and why. The model shows that everything except your own baseline energy $\beta$ is structurally outside your control. The person above you doesn't respond because the graph routes that way, not because you said the wrong thing. What *is* yours is the direction of your own edge. That is the only variable in this entire system you were ever actually holding.
+
+The pyramid doesn't ask for your consent. It doesn't need it. It runs on the same fuel as every other supply chain: the quiet, habitual assumption that input will eventually produce output. The only way to stop subsidizing it is to see it first — and then decide, deliberately, that you would rather be someone's answer than everyone's question.
+
 &nbsp;
 
 ---
