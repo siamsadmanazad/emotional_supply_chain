@@ -182,9 +182,9 @@ These are features of the *model*, not bugs in the *people*.
 
 ---
 
-## Conclusion
+## The Exit
 
-> *"The only mathematically sound strategy is to be the founder (the Sink) or to refuse to recruit."*
+> *"You cannot win a game you did not know you were playing. Now you know."*
 
 Let's be honest about what both of those actually mean.
 
