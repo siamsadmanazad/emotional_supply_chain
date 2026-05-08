@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="900" height="400">
+  <defs>
+    <filter id="sink-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="node-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="400" fill="#0e0e0e"/>
+
+  <!-- Subtle grid lines for academic feel -->
+  <line x1="0" y1="55" x2="900" y2="55" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="0" y1="185" x2="900" y2="185" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="0" y1="330" x2="900" y2="330" stroke="#1a1a1a" stroke-width="1"/>
+
+  <!-- ═══ EDGES: Tier 2 → Tier 1 ═══ -->
+  <line x1="90"  y1="330" x2="180" y2="185" stroke="#2a2a2a" stroke-width="1.5"/>
+  <line x1="180" y1="330" x2="180" y2="185" stroke="#2a2a2a" stroke-width="1.5"/>
+  <line x1="270" y1="330" x2="180" y2="185" stroke="#2a2a2a" stroke-width="1.5"/>
+  <line x1="360" y1="330" x2="450" y2="185" stroke="#2a2a2a" stroke-width="1.5"/>
+  <line x1="450" y1="330" x2="450" y2="185" stroke="#2a2a2a" stroke-width="1.5"/>
+  <line x1="540" y1="330" x2="450" y2="185" stroke="#2a2a2a" stroke-width="1.5"/>
+  <line x1="630" y1="330" x2="720" y2="185" stroke="#2a2a2a" stroke-width="1.5"/>
+  <line x1="720" y1="330" x2="720" y2="185" stroke="#2a2a2a" stroke-width="1.5"/>
+  <line x1="810" y1="330" x2="720" y2="185" stroke="#2a2a2a" stroke-width="1.5"/>
+
+  <!-- ═══ EDGES: Tier 1 → Sink ═══ -->
+  <line x1="180" y1="185" x2="450" y2="55" stroke="#3a2a2a" stroke-width="2"/>
+  <line x1="450" y1="185" x2="450" y2="55" stroke="#3a2a2a" stroke-width="2"/>
+  <line x1="720" y1="185" x2="450" y2="55" stroke="#3a2a2a" stroke-width="2"/>
+
+  <!-- ═══ TIER 2 NODES (9 — faint, drained) ═══ -->
+  <circle cx="90"  cy="330" r="13" fill="#141414" stroke="#2e2e2e" stroke-width="1.5"/>
+  <circle cx="180" cy="330" r="13" fill="#141414" stroke="#2e2e2e" stroke-width="1.5"/>
+  <circle cx="270" cy="330" r="13" fill="#141414" stroke="#2e2e2e" stroke-width="1.5"/>
+  <circle cx="360" cy="330" r="13" fill="#141414" stroke="#2e2e2e" stroke-width="1.5"/>
+  <circle cx="450" cy="330" r="13" fill="#141414" stroke="#2e2e2e" stroke-width="1.5"/>
+  <circle cx="540" cy="330" r="13" fill="#141414" stroke="#2e2e2e" stroke-width="1.5"/>
+  <circle cx="630" cy="330" r="13" fill="#141414" stroke="#2e2e2e" stroke-width="1.5"/>
+  <circle cx="720" cy="330" r="13" fill="#141414" stroke="#2e2e2e" stroke-width="1.5"/>
+  <circle cx="810" cy="330" r="13" fill="#141414" stroke="#2e2e2e" stroke-width="1.5"/>
+
+  <!-- T2 labels -->
+  <text x="90"  y="334" text-anchor="middle" font-family="monospace" font-size="9" fill="#444">β</text>
+  <text x="180" y="334" text-anchor="middle" font-family="monospace" font-size="9" fill="#444">β</text>
+  <text x="270" y="334" text-anchor="middle" font-family="monospace" font-size="9" fill="#444">β</text>
+  <text x="360" y="334" text-anchor="middle" font-family="monospace" font-size="9" fill="#444">β</text>
+  <text x="450" y="334" text-anchor="middle" font-family="monospace" font-size="9" fill="#444">β</text>
+  <text x="540" y="334" text-anchor="middle" font-family="monospace" font-size="9" fill="#444">β</text>
+  <text x="630" y="334" text-anchor="middle" font-family="monospace" font-size="9" fill="#444">β</text>
+  <text x="720" y="334" text-anchor="middle" font-family="monospace" font-size="9" fill="#444">β</text>
+  <text x="810" y="334" text-anchor="middle" font-family="monospace" font-size="9" fill="#444">β</text>
+
+  <!-- ═══ TIER 1 NODES (3 — middlemen) ═══ -->
+  <circle cx="180" cy="185" r="20" fill="#1e1212" stroke="#5a2a2a" stroke-width="2"/>
+  <circle cx="450" cy="185" r="20" fill="#1e1212" stroke="#5a2a2a" stroke-width="2"/>
+  <circle cx="720" cy="185" r="20" fill="#1e1212" stroke="#5a2a2a" stroke-width="2"/>
+
+  <text x="180" y="189" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#cc6655">T₁</text>
+  <text x="450" y="189" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#cc6655">T₁</text>
+  <text x="720" y="189" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#cc6655">T₁</text>
+
+  <!-- ═══ SINK NODE (coral, pulsing) ═══ -->
+  <circle cx="450" cy="55" r="30" fill="#ff6b6b" stroke="#c0392b" stroke-width="2.5" filter="url(#sink-glow)">
+    <animate attributeName="r"    values="30;34;31;33;30" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="fill" values="#ff6b6b;#ff3333;#ff6b6b;#ff8888;#ff6b6b" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="450" y="60" text-anchor="middle" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="white">S</text>
+
+  <!-- ═══ TIER LABELS (right margin) ═══ -->
+  <text x="875" y="59"  text-anchor="end" font-family="monospace" font-size="11" fill="#333">Tier 0</text>
+  <text x="875" y="189" text-anchor="end" font-family="monospace" font-size="11" fill="#333">Tier 1</text>
+  <text x="875" y="334" text-anchor="end" font-family="monospace" font-size="11" fill="#333">Tier 2</text>
+
+  <!-- ═══ ANIMATED PACKETS: Tier 2 → Tier 1 (dur=1.2s, staggered every 6s) ═══ -->
+
+  <!-- (90,330) → T1a (180,185) -->
+  <circle r="5" fill="#ff6b6b" opacity="0" filter="url(#node-glow)">
+    <animateMotion path="M90,330 L180,185" dur="1.2s"
+      begin="0s;6s;12s;18s;24s;30s;36s;42s;48s;54s"/>
+    <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.05;0.85;1"
+      dur="1.2s" begin="0s;6s;12s;18s;24s;30s;36s;42s;48s;54s"/>
+  </circle>
+
+  <!-- (180,330) → T1a (180,185) -->
+  <circle r="5" fill="#ff6b6b" opacity="0" filter="url(#node-glow)">
+    <animateMotion path="M180,330 L180,185" dur="1.2s"
+      begin="0.2s;6.2s;12.2s;18.2s;24.2s;30.2s;36.2s;42.2s;48.2s;54.2s"/>
+    <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.05;0.85;1"
+      dur="1.2s" begin="0.2s;6.2s;12.2s;18.2s;24.2s;30.2s;36.2s;42.2s;48.2s;54.2s"/>
+  </circle>
+
+  <!-- (270,330) → T1a (180,185) -->
+  <circle r="5" fill="#ff6b6b" opacity="0" filter="url(#node-glow)">
+    <animateMotion path="M270,330 L180,185" dur="1.2s"
+      begin="0.4s;6.4s;12.4s;18.4s;24.4s;30.4s;36.4s;42.4s;48.4s;54.4s"/>
+    <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.05;0.85;1"
+      dur="1.2s" begin="0.4s;6.4s;12.4s;18.4s;24.4s;30.4s;36.4s;42.4s;48.4s;54.4s"/>
+  </circle>
+
+  <!-- (360,330) → T1b (450,185) -->
+  <circle r="5" fill="#ff6b6b" opacity="0" filter="url(#node-glow)">
+    <animateMotion path="M360,330 L450,185" dur="1.2s"
+      begin="0.1s;6.1s;12.1s;18.1s;24.1s;30.1s;36.1s;42.1s;48.1s;54.1s"/>
+    <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.05;0.85;1"
+      dur="1.2s" begin="0.1s;6.1s;12.1s;18.1s;24.1s;30.1s;36.1s;42.1s;48.1s;54.1s"/>
+  </circle>
+
+  <!-- (450,330) → T1b (450,185) -->
+  <circle r="5" fill="#ff6b6b" opacity="0" filter="url(#node-glow)">
+    <animateMotion path="M450,330 L450,185" dur="1.2s"
+      begin="0.3s;6.3s;12.3s;18.3s;24.3s;30.3s;36.3s;42.3s;48.3s;54.3s"/>
+    <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.05;0.85;1"
+      dur="1.2s" begin="0.3s;6.3s;12.3s;18.3s;24.3s;30.3s;36.3s;42.3s;48.3s;54.3s"/>
+  </circle>
+
+  <!-- (540,330) → T1b (450,185) -->
+  <circle r="5" fill="#ff6b6b" opacity="0" filter="url(#node-glow)">
+    <animateMotion path="M540,330 L450,185" dur="1.2s"
+      begin="0.5s;6.5s;12.5s;18.5s;24.5s;30.5s;36.5s;42.5s;48.5s;54.5s"/>
+    <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.05;0.85;1"
+      dur="1.2s" begin="0.5s;6.5s;12.5s;18.5s;24.5s;30.5s;36.5s;42.5s;48.5s;54.5s"/>
+  </circle>
+
+  <!-- (630,330) → T1c (720,185) -->
+  <circle r="5" fill="#ff6b6b" opacity="0" filter="url(#node-glow)">
+    <animateMotion path="M630,330 L720,185" dur="1.2s"
+      begin="0s;6s;12s;18s;24s;30s;36s;42s;48s;54s"/>
+    <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.05;0.85;1"
+      dur="1.2s" begin="0s;6s;12s;18s;24s;30s;36s;42s;48s;54s"/>
+  </circle>
+
+  <!-- (720,330) → T1c (720,185) -->
+  <circle r="5" fill="#ff6b6b" opacity="0" filter="url(#node-glow)">
+    <animateMotion path="M720,330 L720,185" dur="1.2s"
+      begin="0.2s;6.2s;12.2s;18.2s;24.2s;30.2s;36.2s;42.2s;48.2s;54.2s"/>
+    <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.05;0.85;1"
+      dur="1.2s" begin="0.2s;6.2s;12.2s;18.2s;24.2s;30.2s;36.2s;42.2s;48.2s;54.2s"/>
+  </circle>
+
+  <!-- (810,330) → T1c (720,185) -->
+  <circle r="5" fill="#ff6b6b" opacity="0" filter="url(#node-glow)">
+    <animateMotion path="M810,330 L720,185" dur="1.2s"
+      begin="0.4s;6.4s;12.4s;18.4s;24.4s;30.4s;36.4s;42.4s;48.4s;54.4s"/>
+    <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.05;0.85;1"
+      dur="1.2s" begin="0.4s;6.4s;12.4s;18.4s;24.4s;30.4s;36.4s;42.4s;48.4s;54.4s"/>
+  </circle>
+
+  <!-- ═══ ANIMATED PACKETS: Tier 1 → Sink (dur=0.9s, larger, brighter) ═══ -->
+
+  <!-- T1a (180,185) → Sink (450,55) -->
+  <circle r="7" fill="#ff6b6b" opacity="0" filter="url(#node-glow)">
+    <animateMotion path="M180,185 L450,55" dur="0.9s"
+      begin="1.5s;7.5s;13.5s;19.5s;25.5s;31.5s;37.5s;43.5s;49.5s;55.5s"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.85;1"
+      dur="0.9s" begin="1.5s;7.5s;13.5s;19.5s;25.5s;31.5s;37.5s;43.5s;49.5s;55.5s"/>
+  </circle>
+
+  <!-- T1b (450,185) → Sink (450,55) -->
+  <circle r="7" fill="#ff6b6b" opacity="0" filter="url(#node-glow)">
+    <animateMotion path="M450,185 L450,55" dur="0.9s"
+      begin="1.7s;7.7s;13.7s;19.7s;25.7s;31.7s;37.7s;43.7s;49.7s;55.7s"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.85;1"
+      dur="0.9s" begin="1.7s;7.7s;13.7s;19.7s;25.7s;31.7s;37.7s;43.7s;49.7s;55.7s"/>
+  </circle>
+
+  <!-- T1c (720,185) → Sink (450,55) -->
+  <circle r="7" fill="#ff6b6b" opacity="0" filter="url(#node-glow)">
+    <animateMotion path="M720,185 L450,55" dur="0.9s"
+      begin="1.9s;7.9s;13.9s;19.9s;25.9s;31.9s;37.9s;43.9s;49.9s;55.9s"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.85;1"
+      dur="0.9s" begin="1.9s;7.9s;13.9s;19.9s;25.9s;31.9s;37.9s;43.9s;49.9s;55.9s"/>
+  </circle>
+
+  <!-- ═══ CAPTION ═══ -->
+  <text x="450" y="385" text-anchor="middle" font-family="Georgia,serif"
+    font-size="11" fill="#333" font-style="italic">
+    validation flows upward · the deficit flows everywhere else
+  </text>
+</svg>

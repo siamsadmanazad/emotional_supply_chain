@@ -3,3 +3,6 @@
 *.png
 REPORT.md
 IMPLEMENTATION_GUIDE.md
+__pycache__/
+*.pyc
+.streamlit/secrets.toml

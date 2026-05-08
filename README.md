@@ -1,56 +1,22 @@
+<div align="center">
+
 # Emotional Supply Chains
 
 *Or: why the person you're ignoring is busy ignoring someone else, and the math behind why that's everyone's problem.*
 
 ![Paper](https://img.shields.io/badge/paper-v1.0-lightgrey?style=flat-square) ![Status](https://img.shields.io/badge/peer_reviewed_by-heartbreak-rose?style=flat-square) ![Regime](https://img.shields.io/badge/%CE%B3m%20%3E%201-exponential-ff6b6b?style=flat-square)
 
----
+<br>
 
-```mermaid
-graph TD
-    S(["🫙 The Sink\n(W = 75 units)"])
-    T1a(["Person T1a\n(C = 25)"])
-    T1b(["Person T1b\n(C = 25)"])
-    T1c(["Person T1c\n(C = 25)"])
-    T2a(["T2a\n(β=10)"])
-    T2b(["T2b\n(β=10)"])
-    T2c(["T2c\n(β=10)"])
-    T2d(["T2d\n(β=10)"])
-    T2e(["T2e\n(β=10)"])
-    T2f(["T2f\n(β=10)"])
-    T2g(["T2g\n(β=10)"])
-    T2h(["T2h\n(β=10)"])
-    T2i(["T2i\n(β=10)"])
+<img src="assets/pyramid_pulse.svg" width="820" alt="Animated validation pyramid — packets travel upward, the Sink accumulates"/>
 
-    T1a -->|"25 units"| S
-    T1b -->|"25 units"| S
-    T1c -->|"25 units"| S
-    T2a -->|"10 units"| T1a
-    T2b -->|"10 units"| T1a
-    T2c -->|"10 units"| T1a
-    T2d -->|"10 units"| T1b
-    T2e -->|"10 units"| T1b
-    T2f -->|"10 units"| T1b
-    T2g -->|"10 units"| T1c
-    T2h -->|"10 units"| T1c
-    T2i -->|"10 units"| T1c
+</div>
 
-    style S fill:#ff6b6b,stroke:#c0392b,color:#fff,font-weight:bold
-    style T1a fill:#ffd6cc,stroke:#e07b6a
-    style T1b fill:#ffd6cc,stroke:#e07b6a
-    style T1c fill:#ffd6cc,stroke:#e07b6a
-    style T2a fill:#fff5f3,stroke:#ccc,stroke-dasharray:4
-    style T2b fill:#fff5f3,stroke:#ccc,stroke-dasharray:4
-    style T2c fill:#fff5f3,stroke:#ccc,stroke-dasharray:4
-    style T2d fill:#fff5f3,stroke:#ccc,stroke-dasharray:4
-    style T2e fill:#fff5f3,stroke:#ccc,stroke-dasharray:4
-    style T2f fill:#fff5f3,stroke:#ccc,stroke-dasharray:4
-    style T2g fill:#fff5f3,stroke:#ccc,stroke-dasharray:4
-    style T2h fill:#fff5f3,stroke:#ccc,stroke-dasharray:4
-    style T2i fill:#fff5f3,stroke:#ccc,stroke-dasharray:4
-```
+<br>
 
----
+<div align="center"><sub>▲</sub></div>
+
+<br>
 
 ## Why does this exist?
 
@@ -60,7 +26,9 @@ This is not a coincidence. It's a supply chain. And like any supply chain, it ha
 
 This paper did not need to exist. It exists anyway. **The math is real.**
 
----
+<br>
+<div align="center"><sub>· · ·</sub></div>
+<br>
 
 ## Who This Is For
 
@@ -72,9 +40,15 @@ The deeper lesson — the one this paper won't say out loud but that lives in th
 
 So who should read this? The person who has been someone's safe option while being no one's first choice. The person who mistakes their tolerance for loyalty, their availability for devotion, their consistency for a relationship. The person who has spent considerable energy being deeply, quietly, productively useful to someone who has spent zero energy wondering why. This model will not fix any of that — but it will *name* it. And naming a structure is the first, most radical act of freedom available to you. Because once you can see the graph, you can ask the only question that actually matters:
 
+<div align="center">
+
 *Is this the node I want to be?*
 
----
+</div>
+
+<br>
+<div align="center"><sub>· · ·</sub></div>
+<br>
 
 ## The Short Version (No Equations, I Promise)
 
@@ -84,37 +58,49 @@ The person receiving all this? They're using it as fuel. The confidence you're h
 
 By the time all that emotional labor reaches the top of the chain, **one person has accumulated the combined output of an entire social pyramid** while doing nothing except existing in a way that people find compelling. Taylor Swift has released eleven studio albums about this. We chose to write a paper.
 
----
+<br>
+<div align="center"><sub>· · ·</sub></div>
+<br>
 
 ## The Worked Example
 
 Same situation, but with numbers:
 
 | Tier | Who they are | How many | Each person inputs | Keeps (ego repair) | Passes up |
-|---|---|---|---|---|---|
+|:---:|:---|:---:|:---:|:---:|:---:|
 | Tier 2 | The Base | 9 | **10 units** | 10 units | 10 units |
 | Tier 1 | The Middlemen | 3 | **25 units** | 10 units | 25 units |
-| Tier 0 | The Sink | 1 | *receives everything* | **75 units** | nothing |
+| Tier 0 | **The Sink** | 1 | *receives everything* | **75 units** | nothing |
 
 Nine people each put in 10 units of effort. One person collects 75. The nine people are now emotionally bankrupt and wondering why they got left on read. The three middlemen feel *validated enough* to keep trying. The Sink is not wondering anything. The Sink simply is.
 
-That's a **7.5× leverage ratio** off a single base-tier person's effort. Most hedge funds don't do that well.
+<div align="center">
 
----
+### `7.5×`
+*leverage ratio off a single base-tier person's effort.*
+*Most hedge funds don't do that well.*
+
+</div>
+
+<br>
+<div align="center"><sub>· · ·</sub></div>
+<br>
 
 ## What Kind of Ecosystem Are You In?
 
 The model has a critical parameter: **γm** — the pass-through rate (how much received validation someone uses to pursue *their* crush) times the branching factor (how many admirers each person has). This number decides everything.
 
-| γm value | Regime | What it means in practice |
-|---|---|---|
-| **< 1** | Bounded | The Sink has a ceiling. The pyramid collapses under its own indifference. There is, mathematically, hope. |
-| **= 1** | Linear | Things are getting worse at a steady, predictable rate. You could set your watch to it. |
-| **> 1** | Exponential | *The Friendzone Asymptote.* The Sink's ego grows without bound. This is the interesting case. Also the bad one. |
+| | γm value | Regime | What it means in practice |
+|:---:|:---:|:---:|:---|
+| 🟢 | **< 1** | Bounded | The Sink has a ceiling. The pyramid collapses under its own indifference. There is, mathematically, hope. |
+| 🟡 | **= 1** | Linear | Things are getting worse at a steady, predictable rate. You could set your watch to it. |
+| 🔴 | **> 1** | Exponential | *The Friendzone Asymptote.* The Sink's ego grows without bound. This is the interesting case. Also the bad one. |
 
 The default worked example runs at γm = 1.5 (right in the exponential regime). Because of course it does.
 
----
+<br>
+<div align="center"><sub>· · ·</sub></div>
+<br>
 
 ## The Part That Actually Stings
 
@@ -126,10 +112,14 @@ Formally: $D(u) = \beta_u$ for all $u \neq S$.
 
 The pyramid doesn't enrich the middle. It just makes the middle *feel* like they're getting somewhere.
 
----
+<br>
+<div align="center"><sub>· · ·</sub></div>
+<br>
 
 <details>
-<summary><b>Show me the actual math (I'm ready, I have a whiteboard)</b></summary>
+<summary><b>Show me the actual math &nbsp;(I'm ready, I have a whiteboard)</b></summary>
+
+<br>
 
 ### The Model
 
@@ -168,7 +158,9 @@ $$W(S) = 10 \cdot 3 \cdot \frac{(0.5 \times 3)^{3-1} - 1}{0.5 \times 3 - 1} = 30
 
 </details>
 
----
+<br>
+<div align="center"><sub>· · ·</sub></div>
+<br>
 
 ## Honest Limitations
 
@@ -180,11 +172,19 @@ Look, this model makes some assumptions. Two worth naming:
 
 These are features of the *model*, not bugs in the *people*.
 
----
+<br>
+<div align="center"><sub>▲ &nbsp; ▲ &nbsp; ▲</sub></div>
+<br>
 
 ## The Exit
 
+<div align="center">
+
 > *"You cannot win a game you did not know you were playing. Now you know."*
+
+</div>
+
+<br>
 
 Let's be honest about what both of those actually mean.
 
@@ -202,20 +202,22 @@ Not to find a better tier. Not to optimize your position within the structure. T
 
 Unplug. Walk out — not to a better tier, but to a different graph altogether. The only move that wins is the one that doesn't play.
 
+<br>
+
+<div align="center">
+
 *The exit isn't upward. It's outward.*
 
-&nbsp;
+</div>
+
+<br>
+<div align="center"><sub>· · ·</sub></div>
+<br>
 
 ---
 
-## Repo
+<div align="center">
 
-```
-paper/                   ← original scans (4 pages, Farid Nahadi, May 2026)
-REPORT.md                ← full paper text + independent math review + errata
-IMPLEMENTATION_GUIDE.md  ← build plan for the interactive simulator
-README.md                ← you are here
-```
+**Farid Nahadi** &nbsp;·&nbsp; May 2026 &nbsp;·&nbsp; `siamsadmanazad/emotional_supply_chain`
 
-**Author:** Farid Nahadi  
-**Reviewed by:** someone with too much free time and a working knowledge of geometric series
+</div>
