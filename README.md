@@ -218,6 +218,6 @@ Unplug. Walk out — not to a better tier, but to a different graph altogether. 
 
 <div align="center">
 
-**Farid Nahadi** &nbsp;·&nbsp; May 2026 &nbsp;·&nbsp; `siamsadmanazad/emotional_supply_chain`
+May 2026 &nbsp;·&nbsp; `siamsadmanazad/emotional_supply_chain`
 
 </div>
